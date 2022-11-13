@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--html5-->
+<html lang="pt">
+<!--informar o motor de busca que o site esta num det. idioma-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--compatibilidade com o IE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Acrescenta comportamentos responsivos ao nosso site-->
+    <link rel="shortcut icon" href="icons/Itzikgur-My-Seven-Pictures-Nikon.ico" type="x-icon">
+    <link href="css/style.css" rel="stylesheet">
+    <!--documento css externo, HTML e XML-->
+    <title>Aula 2</title>
+    <style>
+        h1 {
+            /*selector de tag, C++, Java...*/
+            text-decoration: underline; /*Meter tipo sublinhado (underline), ou outro tipo no texto*/
+            color: darkgreen
+        }
+
+        p {
+            font-weight: bold; /*Meter o texto com determinada espessura*/
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body bgcolor="grey">
+    <!--bgcolor obsoleto-->
+    <h1 id="Aula">Segunda Aula</h1>
+
+    <p class="blue">Para fazer uma quebra de linha adicionamos a tag &lt;br&gt;</p>
+    <p style="color:fuchsia">Para mostrar amor vou mostrar um emoji &#x2764;</p>
+    <audio controls autoplay>
+        <!--Autoplay obsoleto-->
+        <source src="./musica/y2mate.com - Maktub I.mp3" type="audio/mpeg">
+        Não é suportado!
+    </audio>
+    <p class="maiuscula"><a href="https://www.sapo.pt/" target="_blank">Abrir o site do Sapo</a></p><br>
+    <a href="index.html">Voltar à Página Inicial</a><br>
+    <img src="https://blog.emania.com.br/wp-content/uploads/2016/04/capa-1.jpg" width="180px" height="150px"
+        alt="Uma das minhas paixões"><br>
+    <img src="./img/69562530_10156178207896326_1784640502981722112_n.png" width="180px" height="150px"
+        alt="O que Leiria me deu">
+    <div class="divv"> <!--Tabelas invisiveis para ajudar a dividir, ter espaçamento e colocar as coisas em certos sítios na pág.-->
+        <ul type="square" class="blue"> <!--Listagem não-ordenada com formas, bolas, quadrados, etc-->
+            <!--type Obsoleto-->
+            <li>Dar comida ao Ichi e brincar</li>
+            <li>Comprar as coisas para a Aiko</li>
+            <li>Arranjar o cantinho para a Aiko</li>
+            <ul id="primeiralista" style="list-style-type: style type circle;">
+                <li>Cães</li>
+                <li>Gatos</li>
+                <li>Coelhos</li>
+                <ul>
+                    <li>Animais</li>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+    <ol> <!--Listagem ordenada com números, letras, etc-->
+        <li>Joana</li>
+        <li>Alexandra</li>
+        <li>Isabelinha</li>
+        <ol start="10" style="list-style-type:upper-roman">
+            <li>Ribeiro</li>
+        </ol>
+        <picture>
+            <!--Redimenção de imagem consoante o tamanho do ecrã-->
+            <source media="(max-width:775px)" srcset="./img/pexels-pixabay-207296s.jpg">
+            <source media="(max-width:1000px)" srcset="./img/pexels-pixabay-207296m.jpg">
+            <img src="./img/pexels-pixabay-207296.jpg" alt="troncos de madeira">
+        </picture>
+</body>
+
+</html>

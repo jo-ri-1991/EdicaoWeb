@@ -1,0 +1,211 @@
+#header {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border: 3px groove #02CBF9;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--tom2); /*chamamento dos paramêtros que se definiu com os nomes para não andar a copiar, colar*/
+}
+
+.logo {
+    border: 1px solid #02CBF9;
+    border-radius: 4px;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+    display: table-cell;
+
+}
+#titulo {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: 11px;
+    margin-left: -53px;
+    margin-top: -104px;
+    margin-bottom: 45px; 
+}
+    
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: cornflowerblue;
+    border: 1px solid #02CBF9;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 2px;
+}
+.nave {
+    border: 1px solid #02CBF9;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.link1 {
+    border: 1px dotted #02CBF9;
+    width: 600px;
+    height: 80px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;   
+}
+
+.link2 {
+    border: 1px dotted #02CBF9;
+    width: 600px;
+    height: 80px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;  
+}
+
+.link3 {
+    border: 1px dotted #02CBF9;
+    width: 600px;
+    height: 80px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.link4 {
+    border: 1px dotted #02CBF9;
+    width: 600px;
+    height: 80px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.link5 {
+    border: 1px dotted #02CBF9;
+    width: 600px;
+    height: 80px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration:none;
+    margin: 5px;
+}
+
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:dodgerblue;
+    border: 1px solid #02CBF9;
+    border-radius: 4px;
+    margin: 7px;
+    padding: 4px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 56, 56); 
+    padding: 5px;
+}
+
+.principal {
+    border: 3px groove #02CBF9; 
+    border-radius: 4px;
+    margin-left: 365px;
+    margin-top: -418px;
+    margin-bottom: 203px;
+    padding-bottom: 44px;
+    max-width: 800px;/*Responsive tamanho de ecrã - também pode-se fazer com imagens*/
+    min-width: 550px;
+}
+
+ .artigo1 {
+    border: 1px solid #02CBF9; 
+    border-radius: 4px;
+    padding: 5px;
+    margin: 7px;
+ }
+
+ .artigo2 {
+    border: 1px solid #02CBF9; 
+    border-radius: 4px;
+    padding: 5px;
+    margin: 7px;
+ }
+
+ .artigo3 {
+    border: 1px solid #02CBF9; 
+    border-radius: 4px;
+    padding: 5px;
+    margin: 7px;
+    
+ }
+
+ .publicidade {
+    border: 3px groove #02CBF9;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 750px;
+    margin-bottom: 2px;
+    margin-top: 2px; 
+    border-radius: 4px;
+    margin-right: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .rodape {
+    text-align: center;
+    border: 1px solid #02CBF9; 
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -201px;
+    border: 3px groove #02CBF9;
+ }
+
+ :root { /*criar todos os paramêtros que se vão utilizar e depois é só chamá-los através dos nomes que se dá*/
+    --tom1:rgb(145, 17, 17);
+    --tom2: rgb(189, 237, 239);
+    --corFundo: beige;
+    --fonteBody: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--corFundo); /*chamamento dos paramêtros que se definiu com os nomes para não andar a copiar, colar*/
+    font-family: var(--fonteBody);
+}
+
+#relativa {
+    background-color: aqua;
+    position: relative;/*está relativa ao que está na página*/
+    padding: 50px, 50px;
+    margin: 20px;
+    height: 100px;
+}
+
+#absoluta {
+    position: absolute;/*extá absoluta/fixa, no sitío que definimos*/
+    background-color: cornflowerblue;
+    left: 1%;
+    right: -5%;
+    top: 70%;
+    width: 100%;
+    margin: auto;
+    z-index: -10; /*fica por trás dos elementos*/
+}
+
+ul {
+    list-style-type: '\1F383';
+    columns: 2;
+}

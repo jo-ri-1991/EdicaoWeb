@@ -1,0 +1,220 @@
+:root {
+    --palavrasetitulo: #1a5c37;
+    --corfundosublinhado: #3ddc84;
+    --corfundotitulo: linear-gradient(to right, #83e1ad, white);
+    --font: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('./BebasNeue-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('./IDroid.otf') format('opentype');
+}
+
+body {
+    background-color: #ebe5c5;
+}
+
+#header {
+    background: linear-gradient(#2fa866, #1a5c37, #063d1e);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px 1px #000000;
+}
+
+#titulo {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'bebasneue';
+    color: white;
+
+}
+
+#subtitulo {
+    text-align: center;
+    font-family:  var(--font);
+    color: white;
+    font-size: 19.2px;
+    margin: 0px, 285.5px;
+    padding: 0px, 10px, 50px;
+    text-indent: 0px;
+}
+
+.nave {
+    text-align: left;
+    padding: 10px;
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+.link {
+    color: var(--corfundosublinhado);
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: black;
+    transition-duration: 0.4s;
+}
+
+.link:visited {
+    color: #1a5c37;
+}
+
+.principal {
+    background-color: white;
+    margin-left: 50px;
+    margin-top: -21px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 10px 1px #000000;
+    text-align: justify;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+.h1 {
+    font-family: 'IDroid';
+    font-size: 28.8px;
+    color: #063d1e;
+}
+
+.HTML {
+    color: #1a5c37;
+    font-size: 16px;
+    font-family: var(--font);
+}
+
+.h2 {
+    font-family: 'IDroid';
+    font-size: 20.8px;
+    color: #1a5c37;
+    background: var(--corfundotitulo);
+}
+
+p {
+    font-family: var(--font);
+    color: black;
+    margin: 15px, 0px;
+    font-size: 16px;
+    line-height: 1.8;
+    text-indent: 50px;
+    padding-right: 10px;
+}
+
+.w3s {
+    text-decoration: none;
+    color: black;
+    background-color: var(--corfundosublinhado);
+    font-weight: bold;
+    padding: 2px 5px;
+
+}
+
+.w3s[target=_blank]::after {
+    content: ' \00A0\1F517';
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    max-width: 600px;
+    height: auto;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divv {
+    background-color: #1a5c37;
+    padding: 20px;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.conteudo {
+    background-color: #83e1ad;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-family: var(--font);
+    text-align: left;
+    box-shadow: 0px 1px 10px 1px #000000;
+}
+
+.cont {
+    font-size: 18.72px;
+    color: white;
+    background-color: #1a5c37;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font);
+    margin-left: -10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+ul {
+    list-style-type: '\2714';
+    columns: 2;
+}
+
+.list {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.tag[target=_blank]::after {
+    content: ' \00A0\1F517';
+}
+
+.tag {
+    text-decoration: none;
+    color: #063d1e;
+    padding: 2px 5px;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: -103px;
+    background-color: #063d1e;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 2px 8px #000000;
+
+}
+
+#copy {
+    color: rgb(255, 255, 255);
+}
+
+/*main p - Todos os p's que estão dentro da main, diferente de main<p que é filho do main*/

@@ -1,0 +1,17 @@
+body {
+    background-color:rgb(249, 239, 195);  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    text-align:left;
+}
+h1 {
+    color:rgb(146, 5, 5); background-color: rgb(238, 171, 3);
+}
+h2 {
+    color:rgb(146, 5, 5);
+}  
+.head1 {
+    text-decoration: underline;
+} 

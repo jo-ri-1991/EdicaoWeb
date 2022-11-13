@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/6e/2e/6d/6e2e6dd702fa1500ca6014c11fbf00f5.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.bg {
+    text-align: left;
+
+}
+
+.bg::before {
+    content: "";
+    background-image: url(https://thumbs.web.sapo.io/?W=775&H=0&delay_optim=1&epic=NGVjacAb7MZWPBuMOmahyV9l5KjzOUJrHVCukclhMNmsGZv0dGtzQGdttyxO3uiZ4kW76139G2n4gHxRSysB/7hSfTAQDwccoxtEIvV9GkhmTXk=);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+    /*Como conseguir meter opacidade sem comprometer outra imagem em background e sem comprometer o texto*/
+}
+
+div {
+    text-align: left;
+
+}
+
+#mundofoto {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    text-shadow: 7px 4px 5px rgb(27, 107, 3);
+    position: relative;
+    /*Conseguir com que o texto não fique com a opacidade da imagem de background*/
+}
+
+.t1 {
+    text-decoration: underline;
+    text-indent: 5px;
+    color: blue;
+    position: relative;
+}
+
+.t2 {
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+p {
+    position: relative;
+}
+
+.foto {
+    position: relative;
+}
+
+
+ul {
+    position: relative;
+    display: inline-block;
+}
+
+.video {
+    position: relative;
+}
+
+.divv {
+    text-align: center;
+}

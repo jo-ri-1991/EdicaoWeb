@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+    background-image: linear-gradient(180deg, yellow, blue,green);
+
+}
+h1{
+    text-indent: 50px; /*Tab, podendo o parágrafo começar em negativo ou positivo*/
+    letter-spacing: -5px; /*Espaçamento de letras*/
+    
+}
+#Aula, ul {
+    text-align: center; /*Alinhamento do texto*/
+    color: blueviolet;
+}
+.blue {
+    color: blue;
+}
+.maiuscula {
+    text-transform: uppercase; /*Meter o texto caps, todo caps, sem caps..etc*/
+
+}
+p{
+    line-height: 3px; /*Espaçamento entre frases (linhas)*/
+    word-spacing: 5px; /*Espaçamento de palavras*/
+    font-size: 2em;
+}
+ul{
+    text-shadow: 7px 4px 5px pink;
+    font-weight: bolder;
+    font-style: italic;
+    display: inline-block; /*Meter os pontinho ou números no centro com o texto*/
+}
+.divv{
+    text-align: center;
+}
+/*Para abreviar o Font mete-se todos os outros parâmetros seguidos com esta ordem: style, variant, weight, size e family*/
+
+#Aula {/*box - caixa - Block level*/
+    width: 300px;
+    height: 100px;
+    background-color: coral;
+    border-color: brown;
+    border-width: 5px;
+    border-style: dotted;
+}
+

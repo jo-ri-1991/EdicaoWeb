@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com Números - Joana Ribeiro</title>
+    <style>
+        .table1 {
+            border: 2px black;
+            width: 400px;
+            height: 300px;
+            border-collapse:separate;
+            text-align: center;
+            position: relative;
+            margin-right: auto;
+        }
+
+        .table2 {
+            border: 2px black;
+            width: 500px;
+            height: 300px;
+            border-collapse:separate;
+            text-align: center;
+            position:relative;
+            margin-left: 500px;
+            margin-top: -300px;
+        }
+
+        td {
+            border: 1px solid black;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table class="table1">
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table2">
+        <tbody>
+            <tr>
+                <td colspan="4">A</td> 
+                <td rowspan="4">B</td>  
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

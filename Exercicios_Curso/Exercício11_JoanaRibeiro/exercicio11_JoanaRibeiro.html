@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício sobre iFrame - Joana Ribeiro</title>
+    <style>
+        body {
+            background: url('./img/parede.png') no-repeat fixed center center;
+            background-size: cover;
+        }
+
+        div {
+            background: url('./img/iphone.png') no-repeat fixed center center;
+            width: 1000px;
+            height: 700px;
+            position: relative;   
+        }
+
+        iframe {
+            left: 50%;
+            top: 15%;
+            width: 26%;
+            height: 66%;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body><div>
+    <a href="https://www.hiper.fm/trocavas-o-teu-pais-por-um-ano/" target="frame1"></a>
+    <iframe src="https://www.hiper.fm/trocavas-o-teu-pais-por-um-ano/" name="frame1"></iframe>  
+</div>
+</body>
+</html>

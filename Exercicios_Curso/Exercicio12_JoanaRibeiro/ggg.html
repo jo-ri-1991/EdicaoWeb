@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+ 
+<body>
+    <form action="login.php" method="post">
+        <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome" required size="50"
+                placeholder="Insira aqui o seu nome..." autocomplete="name" value="Rui"></p>
+        <p><label for="morada">Morada:</label> <input type="password" name="morada" id="morada"></p>
+        <p><input type="submit" value="Enviar Dados"> <input type="reset" value="Limpar"></p>
+        <p><label for="nota">Nota</label>
+            <input type="number" name="nota" id="nota" placeholder="Insira uma nota" min="0" max="10" step="0.1">
+        </p>
+        <p><label for="mes">Mês</label>
+            <input type="month" name="mes" id="mes">
+        </p>
+        <p><label for="data">Data</label>
+            <input type="date" name="data" id="data">
+        </p>
+        <p><label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora">
+        </p>
+ 
+ 
+ 
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p><label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" pat>
+            </p>
+            <p><label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <!--outros campos-->
+ 
+            <p><label for="linguagens">Linguagens de Programação</label>
+                <select name="linguagens" id="linguagens">
+                    <option value="">--- Selecione um valor ---</option>
+                    <option value="kotlin">Kotlin</option>
+                    <option value="elixir">Elixir</option>
+                    <option value="c">C</option>
+                    <option value="java">Java</option>
+                </select>
+            </p>
+ 
+            <p><label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"> </textarea>
+            </p>
+ 
+            <p><label for="genero">Masculino:</label>
+                <input type="radio" id="genero" name="genero" >
+           <label for="genero">Feminino:</label>
+                <input type="radio" id="genero" name="genero" checked>
+            </p>
+ 
+            <p><label for="desp">Desporto:</label>
+                <input type="checkbox" id="desp" name="desp" >
+           <label for="cinema">Cinema:</label>
+                <input type="checkbox" id="cinema" name="cinema">
+            </p>
+ 
+        </fieldset>
+ 
+    </form>
+ 
+    <img src="iphone.png" alt="Planets"
+    usemap="#planetmap">
+    
+    <map name="planetmap">
+      <area shape="rect" coords="0,0,82,126" href="https://www.iefp.pt/" target="_blank" alt="Sun">
+      <area shape="circle" coords="90,58,30" href="mercur.htm" alt="Mercury">
+      <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+    </map>
+    
+ 
+</body>
+ 
+</html>

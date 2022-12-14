@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 12 - Joana Ribeiro</title>
+    <style>
+        .backg {
+            background-color: darkgoldenrod;
+            font-family: Arial, Helvetica, sans-serif;
+            text-indent: 15px;
+            height: 20px;
+            padding-top: 5px;
+        }
+
+        .divv {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+        }
+
+        .mensagem {
+            font-family: Arial, Helvetica, sans-serif;
+            float: left;
+            padding: 5px;
+            line-height: 85px;
+        }
+
+        .box {
+            margin-left: 100px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="backg"><strong> SISTEMA DE GESTÃO ACADÉMICA</strong></div>
+    <div class="divv"><strong> MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO </strong></div>
+    <form action="">
+    <p><label for="login"><strong>Login</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="nome" id="nome">
+    </p>
+    <p><label for="pass"><strong>Password</strong>&nbsp;&nbsp;</label>
+        <input type="password" name="pass" id="pass">
+        </p>
+        <p><label for="Status"><strong>Status</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="linguagens" id="linguagens">
+                <option value="Inativo">Inativo</option>
+                <option value="Activo">Activo</option>
+                <option value="Ausente">Ausente</option>
+            </select>
+        </p>
+        <p><label for="Tipo"><strong>Tipo</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="Tipo">Técnico</label>
+            <input type="radio" id="genero" name="genero">
+            <label for="Tipo">Professor</label>
+            <input type="radio" id="genero" name="genero">
+            <label for="Tipo">Aluno</label>
+            <input type="radio" id="genero" name="genero">
+        </p>
+        <p><label for="data"><strong>Data de Criação</strong>&nbsp;&nbsp;</label>
+            <input type="date" name="data" id="data">
+        </p>
+        <p><label for="Perfil"><strong>Perfil</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="Perfil">Convidado</label>
+            <input type="radio" id="perfil" name="perfil">
+            <label for="Perfil">Administrador</label>
+            <input type="radio" id="perfil" name="perfil">
+        </p>
+        <p><div class="mensagem"><label for="mensagem"><strong>Observações</strong>&nbsp;&nbsp;&nbsp;</label></div>
+            <div class="box"><textarea name="mensagem" id="mensagem" cols="30" rows="10" style="width:200px; height:100px;" overflow="scroll;"> </textarea></div>
+        </p>
+        <p><label for="Modulos"><strong>Módulos</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="Comp">Compras</label>
+            <input type="checkbox" id="Comp" name="Comp">
+       <label for="Biblio">Bibliotecas</label>
+            <input type="checkbox" id="Biblio" name="Biblio">
+            <label for="Acad">Académico</label>
+            <input type="checkbox" id="Acad" name="Acad"><p>
+            <label for="Docu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Documentação</label>
+            <input type="checkbox" id="Docu" name="Docu">
+            <label for="RH">Recursos Humanos</label>
+            <input type="checkbox" id="RH" name="RH">
+        </p>
+        <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+    </form>
+</body>
+
+</html>
